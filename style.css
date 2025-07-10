@@ -6,12 +6,16 @@ body{
     width: 800px;
     height: 600px;
     background-color: yellow;
+    position:relative
 }
 
 #insideSquare{
+top: 10px;
+left: 80px;
 width: 125px;
 height: 75px;
 border: solid 1px;
+position: absolute;
 }
 
 img{
